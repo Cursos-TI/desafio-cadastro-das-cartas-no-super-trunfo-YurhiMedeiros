@@ -33,7 +33,7 @@ int main(){
     scanf("%s", codigoCidade1); // Código da cidade (sem o & para strings)
 
     printf("Agora digite o nome da cidade:\n");
-    scanf("%s", nome_cidade1); // Nome da cidade
+    scanf("%s", nome_cidade1); // Nome da cidade 
 
     printf("Qual a população?:\n");
     scanf("%d", &populacao1); // População da cidade
@@ -47,7 +47,6 @@ int main(){
     printf("E quais são os números de pontos turísticos que possui?:\n");
     scanf("%d", &pontoTuristico1); // Número de pontos turísticos
     
-
     // Dados da carta nº2
     printf("Agora vamos para a carta  nº %d\n", Carta); //Começando coleta de dados da segunda carta
 
@@ -71,7 +70,6 @@ int main(){
 
     printf("E quais são os números de pontos turísticos que possui?:\n");
     scanf("%d", &pontoTuristico2); // Número de pontos turísticos
-
     
     densidadePopulacional1 = populacao1 / areaKm1; //Calculo para descobrir a densidade Populacional da carta N1
     densidadePopulacional2 = populacao2 / areaKm2; //Calculo para descobrir a densidade Populacional da carta N2
@@ -105,3 +103,4 @@ int main(){
 
     return 0;
 }
+
