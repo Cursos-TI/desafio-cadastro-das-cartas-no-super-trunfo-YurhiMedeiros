@@ -24,7 +24,6 @@ int main(){
 
     printf("\nEssa será as informações da sua carta nº %d\n", carta); // Exibe o número da carta
 
-    
     // Dados da carta nº1
     printf("Digite a letra do estado da carta nº1:\n");
     scanf(" %c", &estado1); // Armazena a letra do estado
