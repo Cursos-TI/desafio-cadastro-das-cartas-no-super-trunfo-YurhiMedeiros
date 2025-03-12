@@ -47,7 +47,7 @@ int main(){
     printf("E quais são os números de pontos turísticos que possui?:\n");
     scanf("%d", &pontoTuristico1); // Número de pontos turísticos
     
-/*
+
     // Dados da carta nº2
     printf("Agora vamos para a carta  nº %d\n", Carta); //Começando coleta de dados da segunda carta
 
@@ -71,7 +71,7 @@ int main(){
 
     printf("E quais são os números de pontos turísticos que possui?:\n");
     scanf("%d", &pontoTuristico2); // Número de pontos turísticos
-*/
+
     
     densidadePopulacional1 = populacao1 / areaKm1; //Calculo para descobrir a densidade Populacional da carta N1
     densidadePopulacional2 = populacao2 / areaKm2; //Calculo para descobrir a densidade Populacional da carta N2
@@ -91,7 +91,6 @@ int main(){
     printf("Densidade Populacional: %.2f hab/km²\n", densidadePopulacional1);
     printf("PIB per Capita: %.2f reais\n", pibCapita1);
 
-    /*
     //Exibindo resultado da carta n2 registrada
     printf("\nCarta 2:\n");
     printf("Estado: %c\n", estado2);
@@ -103,6 +102,6 @@ int main(){
     printf("Número de pontos turísticos: %d\n", pontoTuristico2);
     printf("Densidade Populacional: %.2f hab/km²\n", densidadePopulacional2);
     printf("PIB per Capita: %.2f reais\n", pibCapita2);
-*/
+
     return 0;
 }
